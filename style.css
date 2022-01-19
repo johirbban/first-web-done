@@ -3,9 +3,10 @@ body{
     }
 footer{
     text-align: center;
-    color: slateblue; 
+    color: rgb(89, 90, 12); 
     font-weight: 700;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
 }
 .bd{
    display: flex;
@@ -17,19 +18,19 @@ footer{
     margin: 30px 30px;
     background-color: rosybrown;
     box-shadow: 10px 13px 30px royalblue;
-    border-radius: 20px;
+    border-radius: 50%;
 }
 .welcome{
     color: rgba(23, 13, 172, 0.801);
 }
 #rokshana{
-    border: 10px solid;
+    border: 20px solid;
     border-image: linear-gradient(rgb(155, 17, 141), rgb(61, 61, 105));
     border-image-slice: 30;
 }
 #lorem{
-    border: 10px solid;
+    border-left: 20px solid;
+    border-right: 10px solid;
     border-image: linear-gradient(rgb(85, 112, 82), rgb(58, 58, 207));
     border-image-slice: 1;
-    border-radius: 10px;
 }
