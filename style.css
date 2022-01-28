@@ -1,5 +1,6 @@
 body{
     font-family: 'Merriweather', serif;
+    margin: 0;
     }
 footer{
     text-align: center;
@@ -7,6 +8,30 @@ footer{
     font-weight: 700;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
+}
+.display{
+    padding: 20px;
+    margin: 20px;
+}
+.flexible-container{
+    display: flex;
+    text-align: justify;
+}
+.half-width{
+    width: 50%;
+    margin: 2px%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(114, 155, 17), rgb(107, 107, 219));;
+    padding: 10px 10px;
+    border-radius: 2em;
+    font-weight: 700;
 }
 .bd{
    display: flex;
